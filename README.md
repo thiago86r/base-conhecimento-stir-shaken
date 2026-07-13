@@ -32,3 +32,10 @@ Copie e cole estas perguntas no chat do NotebookLM para auditar o conhecimento d
 
 * **Pergunta 1:** *"Considerando a topologia do STIR/SHAKEN, qual é a diferença técnica e operacional no tratamento de uma chamada que recebe uma atribuição 'Attestation Class A' em comparação com uma 'Attestation Class C'?"*
 * **Pergunta 2:** *"Se um fraudador interceptar a chamada na Rede de Trânsito e alterar o número de telefone de origem para aplicar Spoofing, como o servidor STI-VS da operadora de destino detectará essa quebra de segurança?"*
+
+##  Links Técnicos e Referências Multimídia
+Para se aprofundar na engenharia por trás do protocolo, utilize os links de apoio abaixo:
+*   [Padrão de Configuração e Framework Técnico - SipPulse](https://sippulse.com)
+*   [Vídeo Explicativo: O que é o STIR/SHAKEN na Telefonia](https://www.youtube.com/watch?v=vs3Yp2XcdQA)
+*   [Vídeo Prático: Como o Protocolo Muda as Ligações das Empresas](https://www.youtube.com/watch?v=U3Me0Sz2UcM)
+*   [Portal Governamental de Autenticação - Gov.br](https://www.gov.br/anatel/pt-br/regulado/acompanhamento-e-controle/autenticacao-e-identificacao-de-chamadas)
