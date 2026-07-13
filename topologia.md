@@ -2,36 +2,7 @@
 
 ## Fluxograma de Tráfego de Chamadas Autenticadas (SIP)
 
-
-```mermaid
-graph TD
-    subgraph Origem [Operadora A - Origem]
-        A[Empresa / Originador] -->|1. SIP INVITE| B(Interconnect SBC)
-        B -->|2. Solicita Assinatura| C[Servidor STI-AS]
-        C -->|3. Gera Token JWT PASSport| D[Autoridade Certificadora ABR]
-        D -->|4. Injeta Cabeçalho SIP Identity| B
-    end
-
-    subgraph Transito [Rede Pública]
-        B -->|5. Encaminha Chamada Protegida| E(Rede de Trânsito SIP)
-    end
-
-    subgraph Destino [Operadora B - Destino]
-        E -->|6. Entrega Cabeçalho Intacto| F(Interconnect SBC Destino)
-        F -->|7. Solicita Verificação| G[Servidor STI-VS]
-        G -->|8. Baixa Chave Pública| D
-        G -->|9. Valida Criptografia e Spoofing| F
-    end
-
-    subgraph Entrega [Consumidor Final]
-        F -->|10. Chamada Autorizada| H[Celular do Usuário]
-        style H fill:#22c55e,stroke:#15803d,stroke-width:2px,color:#fff
-    end
-
-    classDef default fill:#f8fafc,stroke:#334155,stroke-width:1px;
-```
-
----
+![Topologia STIR/SHAKEN](https://mermaid.ink)
 
 ## Descrição Detalhada das Etapas
 
